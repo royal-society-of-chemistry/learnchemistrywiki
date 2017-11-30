@@ -3,12 +3,12 @@ The Learn Chemistry Wiki was a wiki (based on open-source MediaWiki software) of
 
 The Learn Chemistry Wiki featured Mediawiki extensions were developed by the Royal Society of Chemistry to enhance the chemistry functionality of the Learn Chemistry Wiki. We are making them available here for anyone that they might be useful to, but would caution that we will not be maintaining it, which will become more of an issue as the MediaWiki and 3rd party software that they rely on move on (the current versions are already different from those that these extensions were developed with). 
 
-The Chemistry MediaWiki extensions developed as part of the Learn Chemistry Wiki are:
-* The KetcherDrawer extension will add a  [Ketcher] (http://lifescience.opensource.epam.com/ketcher/) structure drawer to a page and accompanying extensions can use the drawn structure
-* The structure drawn in it can be used in conjunction with the accompanying extensions:
-* the KetcherSearchButton extension adds a Search button to a page with a KetcherDrawer in it, and an empty div section which is populated with the output a wiki search for the InChIKey of the drawn molecule when the button is clicked
-* the KetcherQuizAnswer extension adds a "Submit Drawn Answer" button to a page with a KetcherDrawer in it and a div which is populated with feedback which results from a comparison of the InChI of the drawn structure with that of the correct structure (and some common wrong structures with warning messages specific to them)
-* the KetcherGenerateInChIButton extension adds a Generate InChI button to a page with a KetcherDrawer in it so that it is easier for a teacher to set up add the KetcherQuizAnswerButton to a page
+The Chemistry MediaWiki extensions developed as part of the Learn Chemistry Wiki are
+ - The KetcherDrawer extension will add a  [Ketcher] (http://lifescience.opensource.epam.com/ketcher/) structure drawer to a page and accompanying extensions can use the drawn structure
+ - The structure drawn in it can be used in conjunction with the accompanying extensions:
+ - the KetcherSearchButton extension adds a Search button to a page with a KetcherDrawer in it, and an empty div section which is populated with the output a wiki search for the InChIKey of the drawn molecule when the button is clicked
+ - the KetcherQuizAnswer extension adds a "Submit Drawn Answer" button to a page with a KetcherDrawer in it and a div which is populated with feedback which results from a comparison of the InChI of the drawn structure with that of the correct structure (and some common wrong structures with warning messages specific to them)
+ - the KetcherGenerateInChIButton extension adds a Generate InChI button to a page with a KetcherDrawer in it so that it is easier for a teacher to set up add the KetcherQuizAnswerButton to a page
 
 There is more information about these extensions and how they work at: http://www.sciencedirect.com/science/article/pii/B9781907568978500035 
 
