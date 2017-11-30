@@ -1,8 +1,11 @@
 # README #
+##Background##
 The Learn Chemistry Wiki was a wiki (based on open-source MediaWiki software) of secondary school chemistry information (Substances, Experiments, Reactions and Quizzes) for teachers and students to view, interact with and contribute to. It was hosted by the [Royal Society of Chemistry](http://www.rsc.org/) at http://www.rsc.org/learn-chemistry/wiki/ between January 2012 until September 2017. It has since been shut down and most of its resources consolidated into the main [Learn Chemistry](http://www.rsc.org/learn-chemistry) site. 
 
+##Note of Caution##
 The Learn Chemistry Wiki featured Mediawiki extensions were developed by the Royal Society of Chemistry to enhance the chemistry functionality of the Learn Chemistry Wiki. We are making them available here for anyone that they might be useful to, but would caution that we will not be maintaining it, which will become more of an issue as the MediaWiki and 3rd party software that they rely on move on (the current versions are already different from those that these extensions were developed with). 
 
+##Extensions##
 The Royal Society of Chemistry MediaWiki extensions developed as part of the Learn Chemistry Wiki are:
 
 
@@ -32,9 +35,9 @@ There is more information about these extensions and how they work [here](http:/
 See [MediaWiki Extension documentation](https://www.mediawiki.org/wiki/Extensions_FAQ) for more information about installing MediaWiki extensions
 ## What the extensions do and usage ##
 ###KetcherDrawer###
-To incorporate a Ketcher drawing frame into a html page it was simply necessary to reference the javascript and css files which comprise the Ketcher code in the head section of the html of a wiki, add the Ketcher frame, table and buttons to the body of the html, and add an onload attribute to the page to the initialise the Ketcher frame. The only part of these steps which was not immediately straightforward for a MediaWiki extension to do to the webpage in which it was called, was the step of adding an onload attribute to the page which we solved by adding a javascript function to the html head which was called at the window’s onload event.
+This extension adds add an interactive molecule sketcher to a MediaWiki page.
 
-To use the extension when installed add the following to a MediaWiki page:
+To use the extension when installed:
 ```<KetcherDrawer/>```
 
 ###KetcherSearchButton###
