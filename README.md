@@ -6,10 +6,10 @@ The Learn Chemistry Wiki featured Mediawiki extensions were developed by the Roy
 The Royal Society of Chemistry MediaWiki extensions developed as part of the Learn Chemistry Wiki are:
 
 
-- KetcherDrawer extension - add a [Ketcher](http://lifescience.opensource.epam.com/ketcher/) structure drawer to a page and accompanying extensions can use the drawn structure and the structure drawn in it can be used in conjunction with the following accompanying extensions:
-2. KetcherSearchButton extension - adds a Search button to a page with a KetcherDrawer in it, and an empty div section which is populated with the output a wiki search for the InChIKey of the drawn molecule when the button is clicked
-3. KetcherQuizAnswer extension - adds a "Submit Drawn Answer" button to a page with a KetcherDrawer in it and a div which is populated with feedback which results from a comparison of the InChI of the drawn structure with that of the correct structure (and some common wrong structures with warning messages specific to them)
-4. KetcherGenerateInChIButton extension - adds a Generate InChI button to a page with a KetcherDrawer in it so that it is easier for a teacher to set up add the KetcherQuizAnswerButton to a page
+* KetcherDrawer extension - add a [Ketcher](http://lifescience.opensource.epam.com/ketcher/) structure drawer to a page and accompanying extensions can use the drawn structure and the structure drawn in it can be used in conjunction with the following accompanying extensions:
+* KetcherSearchButton extension - adds a Search button to a page with a KetcherDrawer in it, and an empty div section which is populated with the output a wiki search for the InChIKey of the drawn molecule when the button is clicked
+* KetcherQuizAnswer extension - adds a "Submit Drawn Answer" button to a page with a KetcherDrawer in it and a div which is populated with feedback which results from a comparison of the InChI of the drawn structure with that of the correct structure (and some common wrong structures with warning messages specific to them)
+* KetcherGenerateInChIButton extension - adds a Generate InChI button to a page with a KetcherDrawer in it so that it is easier for a teacher to set up add the KetcherQuizAnswerButton to a page
 
 There is more information about these extensions and how they work [here](http://www.sciencedirect.com/science/article/pii/B9781907568978500035). 
 
