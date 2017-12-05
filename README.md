@@ -16,7 +16,12 @@ The Royal Society of Chemistry MediaWiki extensions developed as part of the Lea
 * KetcherQuizAnswer extension - adds a "Submit Drawn Answer" button to a page with a KetcherDrawer structure drawer in it, which when clicked will show results from a comparison of the InChI of the drawn structure with that of the correct structure (and some common wrong structures with warning messages specific to them)
 * KetcherGenerateInChIButton extension - adds a "Generate InChI" button to a page with a KetcherDrawer structure drawer in it, which when clicked will show the InChI of the drawn molecule so that it is easier for a teacher to set up add the KetcherQuizAnswerButton to a page
 
-There is more information about these extensions and how they work [here](http://www.sciencedirect.com/science/article/pii/B9781907568978500035). 
+
+##Further information##
+* See License.txt for license information
+* See TechnicalNotes.md file for technical notes about the code behind the extensions
+* There is more information about these extensions and how they work in [this book chapter](http://www.sciencedirect.com/science/article/pii/B9781907568978500035). 
+
 
 ## Installation ##
 1. Install MediaWiki - we were working with version 1.16.0, which was the latest stable version at the time
