@@ -1,13 +1,13 @@
 # README #
-##Background##
+## Background ##
 The Learn Chemistry Wiki was a wiki (based on open-source MediaWiki software) of secondary school chemistry information (Substances, Experiments, Reactions and Quizzes) for teachers and students to view, interact with and contribute to. It was hosted by the [Royal Society of Chemistry](http://www.rsc.org/) at http://www.rsc.org/learn-chemistry/wiki/ between January 2012 until September 2017. It has since been shut down and most of its resources consolidated into the main [Learn Chemistry](http://www.rsc.org/learn-chemistry) site. 
 
 The Learn Chemistry Wiki featured Mediawiki extensions that were developed by the Royal Society of Chemistry to enhance the chemistry functionality of the Learn Chemistry Wiki. We are making them available here for anyone that they might be useful to.
 
-##Note of Caution##
+## Note of Caution ##
 However, we would caution that we will not be maintaining it, which will become more of an issue as the MediaWiki and 3rd party software that they rely on move on (the current versions are already different from those that these extensions were developed with). 
 
-##Extensions##
+## Extensions ##
 The Royal Society of Chemistry MediaWiki extensions developed as part of the Learn Chemistry Wiki are:
 
 
@@ -17,7 +17,7 @@ The Royal Society of Chemistry MediaWiki extensions developed as part of the Lea
 * KetcherGenerateInChIButton extension - adds a "Generate InChI" button to a page with a KetcherDrawer structure drawer in it, which when clicked will show the InChI of the drawn molecule so that it is easier for a teacher to set up add the KetcherQuizAnswerButton to a page
 
 
-##Further information##
+## Further information ##
 * See License.txt for license information
 * See TechnicalNotes.md file for technical notes about the code behind the extensions
 * There is more information about these extensions and how they work in [this book chapter](http://www.sciencedirect.com/science/article/pii/B9781907568978500035). 
@@ -41,13 +41,13 @@ The Royal Society of Chemistry MediaWiki extensions developed as part of the Lea
 
 See [MediaWiki Extension documentation](https://www.mediawiki.org/wiki/Extensions_FAQ) for more information about installing MediaWiki extensions
 ## What the extensions do and usage ##
-###KetcherDrawer###
+### KetcherDrawer ###
 This extension adds add an interactive molecule sketcher to a MediaWiki page.
 
 To use the extension when installed:
 ```<KetcherDrawer/>```
 
-###KetcherSearchButton###
+### KetcherSearchButton ###
 This adds a Search button to a page with a KetcherDrawer in it, and an empty div section (to be populated with the output of the search) to the body of the web page. When the button is clicked, it performs several actions:
 
 * takes the MOL depiction of the molecule that has been drawn (retrieved via a call to the Ketcher javascript functions) and convert it into an InChIKey so that this can be searched on using the [IUPAC InChI code](https://iupac.org/who-we-are/divisions/division-details/inchi/ "IUPAC InChI code") 
@@ -60,7 +60,7 @@ This adds a Search button to a page with a KetcherDrawer in it, and an empty div
 To use the extension when installed add the following to a MediaWiki page 
 ```<KetcherSearchButton/>```
 
-###KetcherSearchButton###
+### KetcherSearchButton ###
 Similary, this adds a Submit button to a page with a KetcherDrawer in it, and an empty div section (to be populated with the output when the drawn structure is compared with some specified InChIs of structures) to the body of the web page. The correct and incorrect InChIs with their warning messages are specified when invoking the extension's parameters).
  
 To use the extension when installed add the following to a MediaWiki page:
@@ -70,5 +70,5 @@ To use the extension when installed add the following to a MediaWiki page:
 * it is also possible to add a correctmessage parameter e.g. by adding the text below to the wiki text of a page: ```<KetcherQuizAnswerButton correctstdinchi="InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H" correctmessage="Correct – the markovnikov reaction involves addition of an acid HX to an alkene" />``` which when filled in will show that message when a correct acnswer is submitted.
 * It is also possible to add a "preloadstdinchi" parameter e.g. by adding the text below to the wiki text of a page: ```<KetcherQuizAnswerButton correctstdinchi="InChI=1S/C5H10/c1-2-4-5-3-1/h1-5H2" preloadstdinchi="InChI=1S/C3H6/c1-2-3-1/h1-3H2"/>```. When filled in will add a link which says "Load initial compund" under the "Submit Drawn Answer" button (if it can generate a mol from the InChI from ChemSpider). When you click it, it will load the mol that corresponds to this initial compound into the Ketcher frame (so that students can start with this structure and not from scratch)
 
-###KetcherGenerateInChIButton###
+### KetcherGenerateInChIButton ###
 This adds a Search button to a page with a KetcherDrawer in it, and an empty div section (to be populated with the InChI output of the drawn structure) to the body of the web page. generates the InChI of the structure shown so that it is easier for a teacher to set up add the KetcherQuizAnswerButton to a page and write their own questions. In terms of functionality it's pretty well the same as the first half of the KetcherSearchButton extension except it outputs the InChI instead of doing a search for the InChIKey.
